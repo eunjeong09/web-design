@@ -1,0 +1,63 @@
+@charset "UTF-8";
+*{margin:0;padding:0;list-style: none;text-decoration: none;font-family: "나눔고딕";}
+.head{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: black;
+}
+.slide{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: red;
+}
+.contents{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: blue;
+}
+.copyright{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: gray;
+}
+.logo{
+    float: left;
+    width: 250px;
+    height: 100px;
+    height: 100px;
+    overflow: hidden;
+    background: yellow;
+}
+.nav{
+    float: right;
+    width: 900px;
+    height: 100px;
+    background: purple;
+}
+.slide{
+    clear: both;
+}
+.c_box{
+    display: inline;
+    font-size: 0;
+}
+.c_box > li{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background: orange;
+}
+.f_box{
+    display: inline;
+    font-size: 0;
+}
+.f_box > li {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    background: green;
+}
