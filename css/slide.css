@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.slide1, .slide2, .slide3{
+    height: 400px;
+    display: block;
+    border-bottom: 2px solid;
+}
+/* 좌우 슬라이드 */
+.imgs1{
+    position: relative;
+    width: 960px;
+    height: 350px;
+}
+.imgs1 > img{
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+    height: 350px;
+}
+
+/* 좌우 슬라이드 */
+.imgs2{
+    position: relative;
+    width: 960px;
+    height: 350px;
+}
+.imgs2 > img{
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+    height: 350px;
+}
+
+/* fade in / fade out */
+.imgs3{
+    position: relative;
+    width: 960px;
+    height: 350px;
+}
+.imgs3 > img{
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+    height: 350px;
+}
