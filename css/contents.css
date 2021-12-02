@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.notice{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    float: left;
+    line-height: 20px;;
+}
+.date{
+    float: right;
+    line-height: 20px;
+}
