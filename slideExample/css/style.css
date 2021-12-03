@@ -1,0 +1,7 @@
+.sliderWrap { width: 800px; height: 300px; margin: 20px auto; overflow: hidden; }
+.slider { display: block; margin:0; padding:0; width: 2400px; }
+.slider > li { float:left; list-style:none; width: 800px; }
+
+.second .slider{height: 900px;width: auto;}
+.third .slider{width: auto; height:900px;  position:relative; top:-600px; margin:0; padding:0;}
+.third .slider > li{height: 300px;}
