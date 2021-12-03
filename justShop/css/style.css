@@ -1,0 +1,141 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 1280px;
+    margin:0 auto;
+    background:#fff;
+    color: #333;
+}
+nav{
+    float: right;
+    display: inline-block;
+}
+.nav li{
+    float: left;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    transition: all 0.4s;
+}
+.nav li:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+.submenu{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.submenu li{
+    transition: all 0.4s;
+    color: #000;
+}
+.submenu li:hover{
+    background-color: blueviolet;
+}
+/* .imageSlide{
+    background-color: cadetblue;
+    overflow: hidden;
+    position: relative;
+}
+.imageSlide img{
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+    height: 150px;
+} */
+#sliderWrap{
+    width: 800px;
+    height: 300px;
+    margin: 2px auto;
+    overflow: hidden;
+}
+#slider{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 900px;
+}
+#slider > li{
+    list-style: none;
+    width: 800px;
+    float: left;
+}
+#slider img{
+    height: 300px;
+}
+
+.logo{
+    display: inline-block;
+}
+.logo img{
+    width: 200px;
+    height: 40px;
+}
+section div{
+    display: inline-block;
+    height: 500px;
+}
+.tabMenu, .banner, .go{
+    width: 33%;
+    float: left;
+    position: relative;
+}
+.tabMenu li{
+    display: inline-block;
+    float: left;
+}
+li.on > .contents{
+    width: 100%;
+    left: 0;
+    height: 200px;
+    margin-top: 25px;
+    background-color: #efefef;
+}
+li.on{
+    border-bottom: 1px solid olivedrab;
+}
+li.on a{
+    color: olivedrab;
+}
+.contents{
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+}
+.contents img{
+    width: 80px;
+    height: 30px;
+}
+#popup{
+    display: none;
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    position: fixed;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#popup.active{
+    display:block;
+    opacity: 1;
+}
+#popup p{
+    border-bottom: 2px solid black;
+}
+#popup button{
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}

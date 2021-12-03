@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="고은정">
+    <meta name="Keywords" content="웹디자인기능사, 실기시험">
+    <meta name="Description" content="웹디자인기능사 실기시험입니다.">
+    <title>JUST 쇼핑몰</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="#"><img src="./images/logo1.png" alt="로고"></a></div>
+        <nav>   
+            <ul class="nav">
+                <li><a href="#">탑</a>
+                    <ul class="submenu">
+                        <li><a href="#">블라우스</a></li>
+                        <li><a href="#">티</a></li>
+                        <li><a href="#">셔츠</a></li>
+                        <li><a href="#">니트</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">아우터</a>
+                    <ul class="submenu">
+                        <li><a href="#">자켓</a></li>
+                        <li><a href="#">코트</a></li>
+                        <li><a href="#">가디건</a></li>
+                        <li><a href="#">머플러</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">팬츠</a>
+                    <ul class="submenu">
+                        <li><a href="#">청바지</a></li>
+                        <li><a href="#">짧은바지</a></li>
+                        <li><a href="#">긴바지</a></li>
+                        <li><a href="#">레깅스</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">악세서리</a>
+                    <ul class="submenu">
+                        <li><a href="#">귀걸이</a></li>
+                        <li><a href="#">목걸이</a></li>
+                        <li><a href="#">반지</a></li>
+                        <li><a href="#">팔찌</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <section>
+        <div class="imageSlide">
+            <img src="./images/clo1.jpg" alt="옷이미지">
+            <img src="./images/clo2.jpg" alt="옷이미지">
+            <img src="./images/clo3.jpg" alt="옷이미지">
+        </div>
+    </section> -->
+    <div id="sliderWrap">
+        <ul id="slider">
+            <li>
+                <img src="./images/clo1.jpg" alt="옷이미지">
+            </li>
+            <li>
+                <img src="./images/clo2.jpg" alt="옷이미지">
+            </li>
+            <li>
+                <img src="./images/clo3.jpg" alt="옷이미지">
+            </li>
+        </ul>
+    </div>
+    <section>
+        <div class="tabMenu">
+            <ul>
+                <li class="on"><a href="#">공지사항</a>
+                    <div class="contents">
+                        <ul class="notice">
+                            <li><a href="#">첫번째 공지사항</a></li>
+                            <li><a href="#">두번째 공지사항</a></li>
+                            <li><a href="#">세번째 공지사항</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">갤러리</a>
+                    <div class="contents">
+                        <img src="./images/clo1.jpg" alt="옷이미지">
+                        <img src="./images/clo2.jpg" alt="옷이미지">
+                        <img src="./images/clo3.jpg" alt="옷이미지">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="popup">
+            <p>타이틀</p>
+            <div>팝업내용</div>
+            <button type="button">닫기</button>
+        </div>
+        <div class="banner">배너</div>
+        <div class="go">바로가기</div>
+    </section>
+    <footer>
+        <div class="logo"><a href="#"><img src="./images/logo2.png" alt="로고"></a></div>
+        <div class="copyright">카피라이트</div>
+        <div class="sns">sns</div>
+    </footer>
+    <script type="text/javascript" src="./script/script.js"></script>
+    
+</body>
+</html>
