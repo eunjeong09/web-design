@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tab, modal</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <ul class="tabmenu">
+            <li class="active"><a href="#">공지사항</a>
+                <div class="contents">
+                    <ul>
+                        <li class="modal"><a href="#">공지사항 첫번째</a></li>
+                        <li><a href="#">공지사항 두번째</a></li>
+                        <li><a href="#">공지사항 세번째</a></li>
+                        <li><a href="#">공지사항 네번째</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">갤러리</a>
+                <div class="contents">
+                    <ul>
+                        <li class="layerModal"><a href="#">갤러리 첫번째</a></li>
+                        <li><a href="#">갤러리 두번째</a></li>
+                        <li><a href="#">갤러리 세번째</a></li>
+                        <li><a href="#">갤러리 네번째</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="modal">
+        <p>모달 타이틀</p>
+        <span>모달 내용</span>
+        <button type="button">닫기</button>
+    </div>
+    <div id="layerModal">
+        <div class="body">
+            <p>레이어 모달 타이틀</p>
+            <span>모달 내용</span>
+            <button type="button">닫기</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script/script.js"></script>
+</body>
+</html>
